@@ -4,7 +4,7 @@ from phonenumbers import carrier
 from opencage.geocoder import OpenCageGeocode
 import folium
 #trouver le numero
-num = "+237654424923"
+num = "+33770957081"
 monNum = phonenumbers.parse(num)
 localisation = geocoder.description_for_number(monNum, "fr")
 print(localisation)
